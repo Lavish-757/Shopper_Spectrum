@@ -307,7 +307,7 @@ The recommendation system can regenerate the similarity matrix from the provided
 
 **Aspiring Data Analyst | Data Science Enthusiast**
 
-- 💼 LinkedIn: *(linkedin.com/in/lavishgupta757/)*
+- 💼 LinkedIn: *(www.linkedin.com/in/lavishgupta757)*
 - 💻 GitHub: *(https://github.com/Lavish-757)*
 - 📧 Email: *(lavishgupta757@gmail.com)*
 
