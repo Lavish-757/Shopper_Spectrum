@@ -14,7 +14,7 @@
 ## 🚀 Live Demo
 
 🔗 **Streamlit App:**  
-*(Add your deployed app link here)*
+*(https://shopper-spectrum-757.streamlit.app/)*
 
 ## 💻 GitHub Repository
 
