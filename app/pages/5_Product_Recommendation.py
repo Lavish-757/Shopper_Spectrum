@@ -1,11 +1,14 @@
 import streamlit as st
 import joblib
 import pandas as pd
+import os
 
 from utils import (
     section_title,
     sidebar
 )
+
+from sklearn.metrics.pairwise import cosine_similarity
 
 # ============================================================
 # Page Configuration
@@ -42,10 +45,30 @@ customer_product_matrix = pd.read_csv(
     index_col=0
 )
 
-# Load similarity matrix
-product_similarity = joblib.load(
-    "models/product_similarity.pkl"
-)
+# ============================================================
+# Load or Create Product Similarity Matrix
+# ============================================================
+
+similarity_path = "models/product_similarity.pkl"
+
+if os.path.exists(similarity_path):
+
+    product_similarity = joblib.load(similarity_path)
+
+else:
+
+    st.info("Creating product similarity matrix for the first time...")
+
+    product_similarity = pd.DataFrame(
+        cosine_similarity(customer_product_matrix.T),
+        index=customer_product_matrix.columns,
+        columns=customer_product_matrix.columns
+    )
+
+    joblib.dump(
+        product_similarity,
+        similarity_path
+    )
 
 section_title("📦", "Product Recommender")
 
