@@ -18,7 +18,7 @@
 
 ## 💻 GitHub Repository
 
-🔗 *(Add your GitHub repository link here)*
+🔗 *(https://github.com/Lavish-757/Shopper_Spectrum)*
 
 ---
 
@@ -204,7 +204,7 @@ Shopper_Spectrum/
 |   ├── 02_Data_Preprocessing.ipynb
 │   ├── 03_Exploratory_Data_Analysis.ipynb
 │   ├── 04_Customer_Segmentation.ipynb
-│   ├── 05_KMeans_Customer_Clustering.ipynb
+│   ├── 05_Customer_Clustering_KMeans.ipynb
 │   └── 06_Product_Recommendation_System.ipynb
 │
 ├── README.md
@@ -234,7 +234,7 @@ Shopper_Spectrum/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Shopper_Spectrum.git
+git clone https://github.com/Lavish-757/Shopper_Spectrum.git
 ```
 
 ### Navigate to the project
@@ -254,6 +254,14 @@ pip install -r requirements.txt
 ```bash
 streamlit run app/app.py
 ```
+
+---
+
+## 📌 Note
+
+The `product_similarity.pkl` file is intentionally excluded from this repository because it exceeds GitHub's 100 MB file size limit.
+
+The recommendation system can regenerate the similarity matrix from the provided `customer_product_matrix.csv` dataset.
 
 ---
 
@@ -299,8 +307,8 @@ streamlit run app/app.py
 
 **Aspiring Data Analyst | Data Science Enthusiast**
 
-- 💼 LinkedIn: *(Add your LinkedIn profile)*
-- 💻 GitHub: *(Add your GitHub profile)*
-- 📧 Email: *(Add your email)*
+- 💼 LinkedIn: *(linkedin.com/in/lavishgupta757/)*
+- 💻 GitHub: *(https://github.com/Lavish-757)*
+- 📧 Email: *(lavishgupta757@gmail.com)*
 
 ---
