@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system file
+.DS_Store
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+*.log
+
+models/product_similarity.pkl
+
